@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Edins
- *
- */
-module ConversorDeMonedas {
-}
