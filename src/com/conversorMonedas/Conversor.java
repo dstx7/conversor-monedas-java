@@ -10,6 +10,11 @@ public class Conversor {
     private static final double YEN_TO_PESO = 35.0;
     private static final double WON_TO_PESO = 3.0;
 
+    public int repetir() {
+    	return JOptionPane.showConfirmDialog(null, "Desea salir del programa?",
+                "YES_NO_OPTION", JOptionPane.YES_NO_OPTION,
+                JOptionPane.INFORMATION_MESSAGE);
+    }
     
     public String mostrarOpciones() {
     Object[] monedas = { "Peso Colombiano a Dolar",
